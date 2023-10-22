@@ -39,3 +39,20 @@ textarea:focus {
     margin-left: 0;
   }
 }
+
+.action {
+  position: fixed;
+  bottom: 50px;
+  right: 35px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.action a img {
+  height: 50px;
+  width: 50px;
+}

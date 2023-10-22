@@ -7,7 +7,7 @@ function Banner() {
       <div className="banner_container">
         <div className="banner_p">Hi, my name is</div>
         <div className="banner_heading">
-          John Doe <br /> I build things for the web
+          Amaan Khan <br /> I build things for the web
         </div>
         <div className="banner_p">
           I am a web development-focused software engineer. At the moment, I am

@@ -99,11 +99,11 @@ function Contact() {
         <div className="contact_contact">
           <div className="contact_address">
             {" "}
-            <FaLocationDot /> City, State, Country
+            <FaLocationDot /> New Delhi, Delhi, India
           </div>
           <div className="contact_number">
             <a href="#">
-              <FaPhoneAlt /> +91 99999 99999
+              <FaPhoneAlt /> +91 807676 5125
             </a>
           </div>
         </div>

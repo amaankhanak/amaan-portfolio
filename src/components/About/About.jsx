@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import picture from "./images/picture.png";
+import ak from "./images/ak.jpg";
 
 function About() {
   return (
@@ -13,7 +14,7 @@ function About() {
           <img src={picture} alt="" />
         </div>
         <div className="about_content">
-          <div className="about_name">John Doe</div>
+          <div className="about_name">Amaan Khan</div>
           <div className="about_description">Full Stack Developer</div>
           <div className="about_info">
             As a full stack developer in my final year of college, I am a
@@ -27,13 +28,13 @@ function About() {
           <div className="about_summary" id="resume">
             <ul>
               <li>
-                <span>From:</span>Texas
+                <span>From:</span>India
               </li>
               <li>
-                <span>Lives in:</span>Texas
+                <span>Lives in:</span>New Delhi, India
               </li>
               <li>
-                <span>Age:</span>25
+                <span>Age:</span>22
               </li>
               <li>
                 <span>Gender:</span>Male

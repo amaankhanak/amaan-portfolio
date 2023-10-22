@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = ({ footerClass }) => {
   return (
     <div className={`footer ${footerClass}`}>
-      <a href="mailto:yashvardhans016@gmail.com">yourEmail@gmail.com</a>
+      <a href="mailto:sameeramaan2014@gmail.com">sameeramaan2014@gmail.com</a>
     </div>
   );
 };

@@ -23,7 +23,6 @@ import { HashLink as Link } from "react-router-hash-link";
 
 import Footer from "../Footer/Footer";
 
-
 function Navbar() {
   const [mobile, setMobile] = useState(false);
   const [open, setOpen] = useState(true);
@@ -36,8 +35,6 @@ function Navbar() {
   return (
     <>
       <BrowserRouter>
-        
-
         <div
           className={mobile ? "navbar_container active" : "navbar_container"}
         >
@@ -45,7 +42,7 @@ function Navbar() {
             <div className="navbar_image">
               <img src={photo} alt="" />
             </div>
-            <div className="navbar_name">John Doe</div>
+            <div className="navbar_name">Amaan Khan</div>
             <div className="navbar_icons">
               <ul>
                 <li>
@@ -134,7 +131,6 @@ function Navbar() {
         <button onClick={handleScreen} className="navbar_hamburger">
           {open ? <FaBars /> : <AiOutlineClose />}
         </button>
-        
       </BrowserRouter>
     </>
   );
